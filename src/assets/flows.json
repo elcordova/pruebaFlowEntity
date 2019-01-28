@@ -1,0 +1,134 @@
+{
+  "newcases": [
+    {
+      "processCode": "FG-847",
+      "endDate": null,
+      "worklist": [
+        {
+          "id":15464654,
+          "holdWorkitem": false,
+          "relatedParticipantUserName": "MEDINA VALLAZZA PATRICIA JACQUELINE",
+          "endDate": null,
+          "subject": "PARA TODOS APLCALIDAD",
+          "activityTypeValueId": 513,
+          "ownerId": "FRM2022",
+          "dataKeys": [
+            {
+              "dataKeyValueId": 1,
+              "isVisible": false,
+              "value": "MEDINA VALLAZZA PATRICIA JACQUELINE",
+              "key": "DE"
+            },
+            {
+              "dataKeyValueId": 2,
+              "isVisible": false,
+              "value": "SAAVEDRA ALVAREZ KARINA PAOLA, MEGAMAXI 735 SUB ADMINISTRADOR BODEGA VILLAGE PLAZA, SECRETARIO(A) SUPERMERCADO CAYAMBE, AKI 243 JEFE DE ALMACEN RIOBAMBA NORTE, LOPEZ VILLACRES LIBIA SORAYA, MEGAMAXI 712 SUB-GERENTE SUPERMERCADO SAN LUIS, AUXILIAR MALL DE LOS ANDES, SUPER AKI 842 CAJERO(A) CHONE, JUG..y más",
+              "key": "PARA"
+            }
+          ]
+        },{
+          "holdWorkitem": false,
+          "relatedParticipantUserName": "MEDINA VALLAZZA PATRICIA JACQUELINE",
+          "endDate": null,
+          "subject": "PARA TODOS APLCALIDAD",
+          "activityTypeValueId": 513,
+          "ownerId": "FRM2022",
+          "manageable": true,
+          "transitionName": "Asunto",
+          "lastModificationDate": null,
+          "timeValues": null,
+          "from": "MEDINA VALLAZZA PATRICIA JACQUELINE",
+          "id": 18018260,
+          "text": "asas",
+          "fileRequiredText": null,
+          "marked": false,
+          "dataKeys":[
+            {
+              "dataKeyValueId": 4,
+              "isVisible": false,
+              "value": "svr-mj055wxf:/opt/rh/jboss/jboss-eap-7_stp_flux_8480/standalone::App-Version=null",
+              "key": "SERVER"
+            },
+            {
+              "dataKeyValueId": 7,
+              "isVisible": false,
+              "value": "[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]",
+              "key": "FABRICANTE"
+            },
+            {
+              "dataKeyValueId": 8,
+              "isVisible": true,
+              "value": "ENVIAR",
+              "key": "ACCION REALIZADA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "processCode": "FG-846",
+      "endDate": null,
+      "worklist": [
+        {
+          "id":15464457,
+          "holdWorkitem": false,
+          "relatedParticipantUserName": "MEDINA VALLAZZA PATRICIA JACQUELINE",
+          "endDate": null,
+          "subject": "PARA TODOS APLCALIDAD",
+          "activityTypeValueId": 513,
+          "ownerId": "FRM2022",
+          "dataKeys": [
+            {
+              "dataKeyValueId": 1,
+              "isVisible": false,
+              "value": "MEDINA VALLAZZA PATRICIA JACQUELINE",
+              "key": "DE"
+            },
+            {
+              "dataKeyValueId": 2,
+              "isVisible": false,
+              "value": "SAAVEDRA ALVAREZ KARINA PAOLA, MEGAMAXI 735 SUB ADMINISTRADOR BODEGA VILLAGE PLAZA, SECRETARIO(A) SUPERMERCADO CAYAMBE, AKI 243 JEFE DE ALMACEN RIOBAMBA NORTE, LOPEZ VILLACRES LIBIA SORAYA, MEGAMAXI 712 SUB-GERENTE SUPERMERCADO SAN LUIS, AUXILIAR MALL DE LOS ANDES, SUPER AKI 842 CAJERO(A) CHONE, JUG..y más",
+              "key": "PARA"
+            }
+          ]
+        },{
+          "holdWorkitem": false,
+          "relatedParticipantUserName": "MEDINA VALLAZZA PATRICIA JACQUELINE",
+          "endDate": null,
+          "subject": "PARA TODOS APLCALIDAD",
+          "activityTypeValueId": 513,
+          "ownerId": "FRM2022",
+          "manageable": true,
+          "transitionName": "Asunto",
+          "lastModificationDate": null,
+          "timeValues": null,
+          "from": "MEDINA VALLAZZA PATRICIA JACQUELINE",
+          "id": 1455718260,
+          "text": "asas",
+          "fileRequiredText": null,
+          "marked": false,
+          "dataKeys":[
+            {
+              "dataKeyValueId": 4,
+              "isVisible": false,
+              "value": "svr-mj055wxf:/opt/rh/jboss/jboss-eap-7_stp_flux_8480/standalone::App-Version=null",
+              "key": "SERVER"
+            },
+            {
+              "dataKeyValueId": 7,
+              "isVisible": false,
+              "value": "[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]",
+              "key": "FABRICANTE"
+            },
+            {
+              "dataKeyValueId": 8,
+              "isVisible": true,
+              "value": "ENVIAR",
+              "key": "ACCION REALIZADA"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
