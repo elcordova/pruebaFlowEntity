@@ -1,6 +1,6 @@
 import { Action } from '@ngrx/store';
 import { Update } from '@ngrx/entity';
-import { FlowModel } from '../../models/flow.model';
+import { FlowModel } from '../../../models/flow.model';
 
 export enum FlowActionTypes {
   LoadFlows = '[Flow] Load Flows',

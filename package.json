@@ -15,12 +15,13 @@
     "@ngrx/store": "7.1.0",
     "@ngrx/store-devtools": "^7.1.0",
     "core-js": "2.6.3",
+    "normalizr": "^3.3.0",
     "rxjs": "6.3.3",
     "zone.js": "0.8.29"
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port 4500",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

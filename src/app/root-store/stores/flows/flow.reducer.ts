@@ -1,5 +1,5 @@
 import { EntityState, EntityAdapter, createEntityAdapter } from '@ngrx/entity';
-import { FlowModel } from '../../models/flow.model';
+import { FlowModel } from '../../../models/flow.model';
 import { FlowActions, FlowActionTypes } from './flow.actions';
 
 

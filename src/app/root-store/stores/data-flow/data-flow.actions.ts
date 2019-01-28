@@ -1,6 +1,6 @@
 import { Action } from '@ngrx/store';
-import { RequestFlowModel } from '../../models/request-flow.model';
-import { ResponseFlowModel } from '../../models/response-flow.model';
+import { RequestFlowModel } from '../../../models/request-flow.model';
+import { ResponseFlowModel } from '../../../models/response-flow.model';
 
 export enum DataFlowActionTypes {
   RequestDataFlow = '[Api] requesting DataFlow',
