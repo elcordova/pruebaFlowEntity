@@ -27,7 +27,7 @@ export class AppComponent implements OnInit {
                 sort: 1,
                 tab: 1,
                 type: 1
-            }
+            },folderId:1
         }))
 
 

@@ -13,13 +13,16 @@ import {StoreDevtoolsModule} from '@ngrx/store-devtools';
  */
 import {AppComponent} from './app.component';
 import {HelloComponent} from './hello.component';
+import { CurrentListComponent } from './components/current-list/current-list.component';
+import { ItemComponent } from './components/item/item.component';
+import { ListComponent } from './components/list/list.component';
 
 
 @NgModule({
     imports: [BrowserModule, HttpClientModule, FormsModule, RootStoreModule, StoreDevtoolsModule.instrument({
         maxAge: 25
     })],
-    declarations: [AppComponent, HelloComponent],
+    declarations: [AppComponent, HelloComponent, CurrentListComponent, ItemComponent, ListComponent],
     bootstrap: [AppComponent]
 })
 export class AppModule {

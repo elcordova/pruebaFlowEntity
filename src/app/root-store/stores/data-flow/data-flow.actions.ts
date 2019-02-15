@@ -12,7 +12,7 @@ export enum DataFlowActionTypes {
 export class ResquestingDataFlowAction implements Action{
   readonly type = DataFlowActionTypes.RequestDataFlow;
 
-  constructor(public payload:{ request: RequestFlowModel}){
+  constructor(public payload:{ request: RequestFlowModel, folderId:number}){
   }
 }
 
@@ -21,7 +21,7 @@ export class ResquestingDataFlowAction implements Action{
 export class AddFlow implements Action {
   readonly type = DataFlowActionTypes.AddDataFlow;
 
-  constructor(public payload: { flow: ResponseFlowModel }) {}
+  constructor(public payload: { flows: ResponseFlowModel,folderId:number }) {}
 }
 
 export type DataFlowsTypes = ResquestingDataFlowAction|AddFlow;

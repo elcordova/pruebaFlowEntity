@@ -7,7 +7,6 @@ import { FlowActions, FlowActionTypes } from './flow.actions';
  * state Flow
  */
 export interface FlowState extends EntityState<FlowModel>{
-
 }
 /**
  * adapter Flow
@@ -28,9 +27,9 @@ export function flowReducer(state = initialFlowState, action: FlowActions ): Flo
   switch(action.type){
     case FlowActionTypes.LoadFlows:
       return adapter.addAll(action.payload.flows,{...state});
-    case FlowActionTypes.AddFlows:
+    case FlowActionTypes.UpsertFlows:
       return adapter.addMany(action.payload.flows,{...state});
-      default:
+    default:
       return state;
   }
 }
